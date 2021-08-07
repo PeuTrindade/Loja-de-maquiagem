@@ -1,0 +1,23 @@
+.aboutUs {
+    font-family: 'Gruppo', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    word-break: break-all;
+}
+
+.aboutUs h1 {
+    margin-top: 10rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color: #d91a73;
+    text-align: center;
+}
+
+.aboutUs h3 {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color: #000;
+    text-align: center;
+}

@@ -1,0 +1,115 @@
+.container {
+    font-family: 'Gruppo', cursive;
+    margin-top: 3rem;
+}
+
+.container h1 {
+   text-align: center;
+   margin-top: 2rem;
+   color: #d91a73;
+   font-size: 2rem;
+}
+
+.container h3 {
+    text-align: center;
+}
+
+.formContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.formContainer input {
+    width: 20rem;
+    height: 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    outline: none;
+    padding-left: 0.3rem;
+}
+
+.formContainer button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5rem;
+    border: none;
+    border-radius: 0.5rem;
+    outline: none;
+    margin-left: 0.5rem;
+    background-color: #F2A7C3;
+    font-family: 'Gruppo', cursive;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+
+.formContainer button:hover {
+    background-color: #d91a73;
+}
+
+.productsContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.product {
+    background-color: white;
+    width: 200px;
+    height: 350px;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+.productImg {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.productBrand {
+    background-color: #d91a73;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 5px;
+    padding: 3px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    color: white;
+    font-family: 'Gruppo', cursive;
+}
+
+.productPrice {
+    margin-top: 20px;
+}
+
+.productBtn {
+    width: 100%;
+    margin-top: 11px;
+    border: none;
+    height: 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Gruppo', cursive;
+    background-color: #F2A7C3;
+    transition: all ease 0.3s;
+}
+
+.productBtn:hover {
+    background-color: #d91a73;
+}
+
+@media screen and (max-width:532px){
+    .formContainer input {
+        width: 10rem;
+    }
+}

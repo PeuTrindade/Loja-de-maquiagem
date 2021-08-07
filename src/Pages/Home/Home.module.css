@@ -1,0 +1,38 @@
+.homeContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.homeContainer h1 {
+    font-family: 'Gruppo', cursive;
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 2rem;
+    color: #d91a73;
+}
+
+.homeContainer h3 {
+    font-family: 'Gruppo', cursive;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.homeBtn {
+    width: 200px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: #F2A7C3;
+    font-family: 'Gruppo', cursive;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+
+.homeBtn:hover {
+    background-color: #d91a73;
+}

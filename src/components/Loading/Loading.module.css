@@ -1,0 +1,21 @@
+.loading {
+    color: #d91a73;
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+    font-size: 3rem;
+    animation: anime linear 2s infinite;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+@keyframes anime {
+    from {
+        transform: rotate(0deg);
+    }
+    from {
+        transform: rotate(360deg);
+    }
+}
